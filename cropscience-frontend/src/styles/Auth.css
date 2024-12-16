@@ -1,0 +1,95 @@
+/* Container for authentication forms */
+.auth-container {
+    display: flex;
+    justify-content: center;    /* Center horizontally */
+    align-items: center;        /* Center vertically */
+    min-height: 100vh;          /* Full viewport height */
+    background-color: #f9f9f9;  /* Light grey background */
+  }
+  
+  /* Card styling for forms */
+  .auth-card {
+    background: #ffffff;        /* White background */
+    padding: 30px;
+    border-radius: 8px;         /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px;           /* Max width of card */
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .auth-card h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;                /* Dark grey text */
+  }
+  
+  /* Input, select, and button styling */
+  .auth-card input,
+  .auth-card select,
+  .auth-card button {
+    width: 100%;                /* Full width */
+    padding: 10px;              /* Inner spacing */
+    margin-bottom: 15px;        /* Spacing below elements */
+    border: 1px solid #ccc;     /* Light grey border */
+    border-radius: 4px;         /* Rounded borders */
+    box-sizing: border-box;     /* Avoid overflow */
+  }
+  
+  /* Button styling */
+  .auth-card button {
+    background-color: #28a745;  /* Green background */
+    color: white;               /* White text */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-card button:hover {
+    background-color: #218838;  /* Darker green on hover */
+  }
+  
+  /* Error or success message styling */
+  .auth-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Link styling */
+  .auth-link {
+    color: #007bff;             /* Blue color */
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  
+ /* Align checkbox and text on the same line */
+.seller-checkbox {
+    display: flex;
+    justify-content: flex-start; /* Align checkbox and label to the left */
+    align-items: center; /* Vertically center items */
+    margin-bottom: 18px; /* Space below the checkbox section */
+  }
+  
+  .seller-checkbox label {
+    display: flex; /* Allow alignment within the label */
+    align-items: center; /* Center checkbox and text vertically */
+    gap: 8px; /* Space between checkbox and text */
+    font-size: 14px;
+    color: #333; /* Dark grey text */
+    cursor: pointer;
+  }
+  
+  .seller-checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 18px;
+    cursor: pointer;
+  }
+  
+  
